@@ -1,0 +1,2 @@
+ESP_PATH="/boot"
+KERNEL_CMDLINE[default]="preempt=lazy rcu_nocbs=all rcutree.enable_rcu_lazy=1 quiet nowatchdog splash rw rootflags=subvol=/@ root=UUID=55595fa0-727c-4c3c-a4da-91aefdf50858"

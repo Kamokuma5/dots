@@ -1,13 +1,5 @@
 import decman
 
-# Bootloader
-decman.packages += [
-    "limine",
-    "limine-mkinitcpio-hook", "efibootmgr", "mkinitcpio",
-    "snapper",
-    "limine-snapper-sync"
-]
-
 # DM
 decman.packages += [
     # Note: Disable current DM and run: 

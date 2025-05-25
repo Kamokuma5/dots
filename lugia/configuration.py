@@ -6,6 +6,7 @@ config = {
     "HOME_DIR" : f'/home/{USERNAME}',
 }
 
+from modules.limine import Limine
 import lugia.hardware
 import modules.distro
 import modules.fonts
@@ -15,6 +16,7 @@ from modules.hyprland import Hyprland
 from modules.zsh import Zsh
 from modules.git import Git
 decman.modules += [
+    Limine(config),
     Hyprland(config),
     Git(config),
     Zsh(config),
