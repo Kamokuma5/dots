@@ -67,4 +67,5 @@ decman.packages += [
 
 decman.aur_packages += [
     "visual-studio-code-bin",
+    "zen-browser-bin",
 ]
