@@ -2,7 +2,7 @@ from decman import Module, Directory
 
 class Git(Module):
     def __init__(self, config):
-        super().__init__(name="zsh", enabled=True, version="1")
+        super().__init__(name="git", enabled=True, version="1")
         self.config = config
 
     def pacman_packages(self) -> list[str]:
