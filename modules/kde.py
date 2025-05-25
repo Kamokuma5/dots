@@ -1,0 +1,40 @@
+# TODO: This needs a lot of work
+import decman
+
+# KDE
+decman.packages += [
+    "qt6-wayland",
+    "libplasma",
+    "plasma-desktop", "xdg-user-dirs",
+    "plasma-firewall",
+    "plasma-integration",
+    "plasma-nm", "modemmanager", "usb_modeswitch",
+    "plasma-pa",
+    "plasma-systemmonitor",
+    "plasma-thunderbolt",
+    "plasma-workspace", "accountsservice",
+    "xdg-desktop-portal-kde",
+
+    "bluedevil",
+    "powerdevil",
+    "breeze-gtk",
+    "dolphin", "ffmpegthumbs",
+    "kde-gtk-config",
+    "kdegraphics-thumbnailers",
+    "kdeplasma-addons",
+    "kdialog",
+    "kinfocenter", "dmidecode",
+    "kinit",
+    "kio-admin",
+    "kscreen",
+    "kwallet-pam",
+    "kwalletmanager",
+    "phonon-qt6-mpv",
+    "xorg-server",
+    "xorg-xdpyinfo",
+    "xorg-xinit",
+    "xorg-xinput",
+    "xorg-xkill",
+    "xorg-xrandr",
+    "xsettingsd",
+]
