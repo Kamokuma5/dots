@@ -17,6 +17,7 @@ decman.packages += [
 decman.packages += [
     "pipewire-alsa",
     "pipewire-pulse",
+    "rtkit",
     "wireplumber",
     "pavucontrol",
     "alsa-firmware",
