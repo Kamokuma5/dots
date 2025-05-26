@@ -40,7 +40,6 @@ decman.packages += [
 
     # CLI
     "decman",
-    "neovim",
     "btop",
     "wget",
     "which",
@@ -62,12 +61,31 @@ decman.packages += [
     "ark",
     "btrfs-assistant",
     "octopi",
-    "alacritty",
+    
+    "xdg-desktop-portal", "rtkit",
 
-    "xdg-desktop-portal", "rtkit"
+
+    "alacritty",
+    "foot",
+    "neovim",
+    "eza",
+    "dust",
+    "zoxide",
+    "fzf",
+    "zellij",
+    "tmux",
+    "fastfetch",
+    "yazi",
+    "tree",
+    "bat",
+    "powertop",
 ]
 
 decman.aur_packages += [
+    "lazydocker",
+    
+    "vesktop-bin",
     "visual-studio-code-bin",
     "zen-browser-bin",
+    "microsoft-edge-stable-bin",
 ]
