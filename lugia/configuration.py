@@ -15,14 +15,19 @@ import modules.fonts
 import modules.de.kde
 
 from modules.de.hyprland import Hyprland
+from modules.apps.foot import Foot
 from modules.apps.zsh import Zsh
 from modules.apps.git import Git
+from modules.apps.fastfetch import Fastfetch
+
 decman.modules += [
     Limine(config),
     Asus(config),
     Hyprland(config),
+    Foot(config),
     Zsh(config),
     Git(config),
+    Fastfetch(config),
 ]
 
 # Apps
@@ -67,7 +72,6 @@ decman.packages += [
 
 
     "alacritty",
-    "foot",
     "neovim",
     "eza",
     "dust",
@@ -75,7 +79,6 @@ decman.packages += [
     "fzf",
     "zellij",
     "tmux",
-    "fastfetch",
     "yazi",
     "tree",
     "bat",
