@@ -55,12 +55,3 @@ decman.packages += [
     "bluez-libs",
     "bluez-utils",
 ]
-
-# ASUS
-decman.packages += [
-    "asusctl",
-    "power-profiles-daemon",
-    "rog-control-center",
-    "supergfxctl",
-    "switcheroo-control"
-]

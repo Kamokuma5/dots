@@ -7,6 +7,7 @@ config = {
 }
 
 from modules.limine import Limine
+from modules.asus import Asus
 import lugia.hardware
 import modules.distro
 import modules.fonts
@@ -17,9 +18,10 @@ from modules.zsh import Zsh
 from modules.git import Git
 decman.modules += [
     Limine(config),
+    Asus(config),
     Hyprland(config),
-    Git(config),
     Zsh(config),
+    Git(config),
 ]
 
 # Apps
