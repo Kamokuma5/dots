@@ -14,5 +14,5 @@ class Git(Module):
     
     def directories(self) -> dict[str, Directory]:
         return {
-            f"{self.config['HOME_DIR']}/.config/git/": Directory("./modules/dots/git/")
+            f"{self.config['HOME_DIR']}/.config/git/": Directory("./modules/apps/config/git/")
         }

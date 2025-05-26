@@ -17,10 +17,10 @@ class Asus(Module):
     
     def files(self) -> dict[str, File]:
         return {
-            "/etc/supergfxd.conf": File(source_file="./modules/dots/asus/supergfxd.conf"),
+            "/etc/supergfxd.conf": File(source_file="./lugia/config/asus/supergfxd.conf"),
         }
     
     def directories(self) -> dict[str, Directory]:
         return {
-            "/etc/asusd": Directory("./modules/dots/asus/asusd/")
+            "/etc/asusd": Directory("./lugia/config/asus/asusd/")
         }

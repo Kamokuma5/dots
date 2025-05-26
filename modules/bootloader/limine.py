@@ -17,7 +17,7 @@ class Limine(Module):
     
     def files(self) -> dict[str, File]:
         return {
-            "/etc/default/limine": File(source_file="./modules/dots/limine/limine", permissions=0o644),
+            "/etc/default/limine": File(source_file="./modules/bootloader/config/limine/limine", permissions=0o644),
         }
     
     def after_update(self):

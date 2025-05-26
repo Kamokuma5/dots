@@ -6,16 +6,17 @@ config = {
     "HOME_DIR" : f'/home/{USERNAME}',
 }
 
-from modules.limine import Limine
-from modules.asus import Asus
 import lugia.hardware
+from lugia.asus import Asus
+
+from modules.bootloader.limine import Limine
 import modules.distro
 import modules.fonts
-import modules.kde
+import modules.de.kde
 
-from modules.hyprland import Hyprland
-from modules.zsh import Zsh
-from modules.git import Git
+from modules.de.hyprland import Hyprland
+from modules.apps.zsh import Zsh
+from modules.apps.git import Git
 decman.modules += [
     Limine(config),
     Asus(config),
@@ -83,7 +84,7 @@ decman.packages += [
 
 decman.aur_packages += [
     "lazydocker",
-    
+
     "vesktop-bin",
     "visual-studio-code-bin",
     "zen-browser-bin",

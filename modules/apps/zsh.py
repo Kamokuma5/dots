@@ -15,6 +15,6 @@ class Zsh(Module):
     
     def files(self) -> dict[str, File]:
         return {
-            f"{self.config['HOME_DIR']}/.zshrc": File(source_file="./modules/dots/zsh/.zshrc"),
-            f"{self.config['HOME_DIR']}/.config/zsh/.p10k.zsh": File(source_file="./modules/dots/zsh/.p10k.zsh"),
+            f"{self.config['HOME_DIR']}/.zshrc": File(source_file="./modules/apps/config/zsh/.zshrc"),
+            f"{self.config['HOME_DIR']}/.config/zsh/.p10k.zsh": File(source_file="./modules/apps/config/zsh/.p10k.zsh"),
         }

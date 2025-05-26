@@ -23,5 +23,5 @@ class Hyprland(Module):
     
     def directories(self) -> dict[str, Directory]:
         return {
-            f"{self.config['HOME_DIR']}/.config/hypr/": Directory("./modules/dots/hypr/")
+            f"{self.config['HOME_DIR']}/.config/hypr/": Directory("./modules/de/config/hypr/")
         }
