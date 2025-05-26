@@ -82,6 +82,8 @@ decman.packages += [
     "tree",
     "bat",
     "powertop",
+    "mullvad-vpn",
+
     # fonts
     "ttf-cascadia-code-nerd",
 ]
