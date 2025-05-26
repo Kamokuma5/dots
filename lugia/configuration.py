@@ -31,44 +31,15 @@ decman.modules += [
 
 # Apps
 decman.packages += [
-    # System Dependencies
-    "perl",
-    "cryptsetup",
-    "device-mapper",
-    "diffutils",
-    "e2fsprogs", "lvm2",
-    "rsync",
-    "ripgrep",
-    "mdadm",
-    "upower", 
-    "xf86-input-libinput",
-
     # CLI
     "decman",
     "btop",
-    "wget",
-    "which",
-    "sudo",
-    "openssh",
-    "btrfs-progs",
-    "hwinfo",
-    "inetutils",
-    "unzip",
-    "unrar",
-    "chwd",
-    "chrony",
-    "bind",
-    "ethtool",
-    "python", "python-defusedxml","python-packaging",
 
     # GUI
     "firefox",
     "ark",
     "btrfs-assistant",
     "octopi",
-    
-    "xdg-desktop-portal", "rtkit",
-
 
     "alacritty",
     "neovim",

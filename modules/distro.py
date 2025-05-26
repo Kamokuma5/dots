@@ -32,4 +32,33 @@ decman.packages += [
     "cachyos-hello",
     "cachyos-kernel-manager",
     "cachyos-packageinstaller",
+
+    # System Dependencies
+    "perl",
+    "cryptsetup",
+    "device-mapper",
+    "diffutils",
+    "e2fsprogs", "lvm2",
+    "rsync",
+    "ripgrep",
+    "mdadm",
+    "upower", 
+    "xf86-input-libinput",
+    "xdg-desktop-portal", "rtkit",
+
+    # standard tools
+    "wget",
+    "which",
+    "sudo",
+    "openssh",
+    "btrfs-progs",
+    "hwinfo",
+    "inetutils",
+    "unzip",
+    "unrar",
+    "chwd",
+    "chrony",
+    "bind",
+    "ethtool",
+    "python", "python-defusedxml","python-packaging",
 ]
