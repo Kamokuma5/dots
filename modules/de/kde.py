@@ -37,4 +37,9 @@ decman.packages += [
     "xorg-xkill",
     "xorg-xrandr",
     "xsettingsd",
+
+    "noto-color-emoji-fontconfig",
+    "noto-fonts",
+    "noto-fonts-cjk",
+    "noto-fonts-emoji",
 ]

@@ -11,7 +11,6 @@ from lugia.asus import Asus
 
 from modules.bootloader.limine import Limine
 import modules.distro
-import modules.fonts
 import modules.de.kde
 
 from modules.de.hyprland import Hyprland
@@ -83,6 +82,8 @@ decman.packages += [
     "tree",
     "bat",
     "powertop",
+    # fonts
+    "ttf-cascadia-code-nerd",
 ]
 
 decman.aur_packages += [
