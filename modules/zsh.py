@@ -10,8 +10,7 @@ class Zsh(Module):
     def pacman_packages(self) -> list[str]:
         # Packages part of this module
         return [
-            "cachyos-zsh-config",
-            "vim", # dependency for cachyos-zsh-config
+            "cachyos-zsh-config", "vim", # dependency for cachyos-zsh-config
         ]
     
     def files(self) -> dict[str, File]:
