@@ -52,12 +52,12 @@ else
 fi
 
 ### Aliases
-if [ -x "$(command -v exa)" ]; then
-    alias la='exa -a'
-    alias ll='exa -lah'
-    alias ls='exa --color=auto'
+if [ -x "$(command -v eza)" ]; then
+    alias la='eza -a'
+    alias ll='eza -lah'
+    alias ls='eza --color=auto'
 else
-    echo "exa is not installed"
+    echo "eza is not installed"
 fi
 
 ### Exports
