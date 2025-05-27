@@ -1,4 +1,4 @@
-from decman import Module, Directory
+from decman import File, Module, Directory
 
 class Hyprland(Module):
     def __init__(self, config):
@@ -25,3 +25,21 @@ class Hyprland(Module):
         return {
             f"{self.config['HOME_DIR']}/.config/hypr/": Directory("./modules/de/config/hypr/")
         }
+    
+    def files(self) -> dict[str, File]:
+        with open("./modules/de/config/environment.frag", 'r', encoding="utf-8") as frag_file:
+            frag = frag_file.readlines()
+
+        # Append new lines into this file
+        fname = "/etc/environment"
+        with open(fname, 'r') as orig:
+            content = orig.readlines()
+
+            for line in frag:
+                if line not in content:
+                    content.append(line)
+
+            with open(fname, "w", encoding="utf-8") as new:
+                new.writelines(content)
+
+        return super().files()
