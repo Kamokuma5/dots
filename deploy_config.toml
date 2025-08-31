@@ -1,0 +1,23 @@
+[[deploy]]
+src = "/home/duck/dots/.config"
+dest = "/home/duck/.config"
+method = "symlink"
+
+[[deploy]]
+src = "/home/duck/dots/home"
+dest = "/home/duck"
+method = "symlink"
+
+[[deploy]]
+src = "/home/duck/dots/etc"
+dest = "/etc"
+method = "copy"
+owner = "root"
+permissions = "644"
+
+[[deploy]]
+src = "/home/duck/dots/usr"
+dest = "/usr"
+method = "copy"
+owner = "root"
+permissions = "755"
