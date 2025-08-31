@@ -1,0 +1,6 @@
+{
+  "bar.autoHide": "never",
+  "bar.customModules.storage.paths": [
+    "/"
+  ]
+}

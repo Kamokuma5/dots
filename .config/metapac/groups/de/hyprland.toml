@@ -1,0 +1,10 @@
+arch = [
+    "hyprland",
+    "brightnessctl",
+    "rofi-wayland",
+    "hypridle",
+    "hyprlock",
+    "hyprshot",
+
+    "ags-hyprpanel-git"
+]

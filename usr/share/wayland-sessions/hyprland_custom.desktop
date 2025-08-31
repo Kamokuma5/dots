@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Hyprland iGPU
+Comment=An intelligent dynamic tiling Wayland compositor
+Exec=/usr/local/bin/hyprland_start.sh
+Type=Application
+DesktopNames=Hyprland
+Keywords=tiling;wayland;compositor;

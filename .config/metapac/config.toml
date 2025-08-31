@@ -1,0 +1,9 @@
+enabled_backends = ["arch"]
+hostname_groups_enabled = true
+
+[arch]
+package_manager = "paru"
+
+[hostname_groups]
+lugia = ["cachyos", "bootloader/limine", "de/kde", "de/hyprland", "apps", "ga403ui/hardware", "ga403ui/asus"]
+

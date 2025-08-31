@@ -1,0 +1,6 @@
+arch = [
+    "limine",
+    "limine-mkinitcpio-hook", "efibootmgr", "mkinitcpio",
+    "snapper",
+    "limine-snapper-sync"
+]

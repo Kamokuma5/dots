@@ -1,0 +1,48 @@
+arch = [
+    # CLI
+    "btop", "rocm-smi-lib",
+    "fastfetch", "imagemagick",
+    "git", "git-delta",
+    "cachyos-zsh-config", "vim", # dependency for cachyos-zsh-config"
+
+    # GUI
+    "firefox",
+    "ark",
+    "btrfs-assistant",
+    "octopi",
+    "vesktop-bin",
+    "zen-browser-bin",
+    "peazip",
+
+    "ghostty",
+    "neovim",
+    "eza",
+    "dust",
+    "zoxide",
+    "fzf",
+    "zellij",
+    "tmux",
+    "yazi",
+    "tree",
+    "bat",
+    "powertop",
+    "mullvad-vpn",
+    "lact",
+    "metapac",
+
+    # fonts
+    "ttf-cascadia-code-nerd",
+
+    # dev
+    "uv",
+    "visual-studio-code-bin",
+
+    # Gaming
+    "cachyos-gaming-applications",
+    "cachyos-gaming-meta",
+
+    # Misc
+    "microsoft-edge-stable-bin",
+    "open-tv-bin",
+    "yuki-iptv-bin",
+]

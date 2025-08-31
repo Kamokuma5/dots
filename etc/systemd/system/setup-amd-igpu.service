@@ -1,0 +1,12 @@
+[Unit]
+Description=Setup AMD iGPU udev rule
+DefaultDependencies=no
+Before=graphical.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/create_igpu_rule.sh
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target

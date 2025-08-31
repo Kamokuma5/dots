@@ -1,0 +1,14 @@
+background = 000000
+foreground = ffffff
+theme=catppuccin-mocha
+background-opacity = 0.50
+
+#keybind = ctrl+z=close_surface
+#keybind = ctrl+d=new_split:right
+
+font-family="CaskaydiaCove Nerd Font"
+font-size=12
+font-feature=-liga
+font-thicken=true
+
+shell-integration = zsh
