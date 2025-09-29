@@ -1,0 +1,230 @@
+{
+    "appLauncher": {
+        "backgroundOpacity": 1,
+        "enableClipboardHistory": false,
+        "pinnedExecs": [
+        ],
+        "position": "center",
+        "sortByMostUsed": true,
+        "useApp2Unit": false
+    },
+    "audio": {
+        "cavaFrameRate": 60,
+        "mprisBlacklist": [
+        ],
+        "preferredPlayer": "mpv",
+        "visualizerType": "linear",
+        "volumeOverdrive": false,
+        "volumeStep": 5
+    },
+    "bar": {
+        "backgroundOpacity": 0.4,
+        "density": "comfortable",
+        "floating": false,
+        "marginHorizontal": 0.25,
+        "marginVertical": 0.25,
+        "monitors": [
+        ],
+        "position": "top",
+        "showCapsule": false,
+        "widgets": {
+            "center": [
+            ],
+            "left": [
+                {
+                    "customIconPath": "/home/duck/dots/rubber-duck.png",
+                    "icon": "",
+                    "id": "ControlCenter",
+                    "useDistroLogo": false
+                },
+                {
+                    "hideUnoccupied": false,
+                    "id": "Workspace",
+                    "labelMode": "index"
+                },
+                {
+                    "id": "SystemMonitor",
+                    "showCpuTemp": true,
+                    "showCpuUsage": true,
+                    "showDiskUsage": false,
+                    "showMemoryAsPercent": true,
+                    "showMemoryUsage": true,
+                    "showNetworkStats": false
+                },
+                {
+                    "autoHide": true,
+                    "id": "ActiveWindow",
+                    "scrollingMode": "hover",
+                    "showIcon": true
+                }
+            ],
+            "right": [
+                {
+                    "displayMode": "onhover",
+                    "id": "Volume"
+                },
+                {
+                    "displayMode": "onhover",
+                    "id": "Brightness"
+                },
+                {
+                    "id": "WiFi"
+                },
+                {
+                    "id": "Bluetooth"
+                },
+                {
+                    "displayMode": "onhover",
+                    "id": "Battery",
+                    "warningThreshold": 30
+                },
+                {
+                    "id": "Tray"
+                },
+                {
+                    "formatHorizontal": "HH:mm ddd, MMM dd",
+                    "formatVertical": "HH mm - dd MM",
+                    "id": "Clock",
+                    "useMonospacedFont": true,
+                    "usePrimaryColor": true
+                },
+                {
+                    "hideWhenZero": true,
+                    "id": "NotificationHistory",
+                    "showUnreadBadge": true
+                },
+                {
+                    "id": "WallpaperSelector"
+                }
+            ]
+        }
+    },
+    "brightness": {
+        "brightnessStep": 5
+    },
+    "colorSchemes": {
+        "darkMode": true,
+        "matugenSchemeType": "scheme-fruit-salad",
+        "predefinedScheme": "Catppuccin",
+        "useWallpaperColors": true
+    },
+    "dock": {
+        "autoHide": true,
+        "backgroundOpacity": 1,
+        "exclusive": false,
+        "floatingRatio": 1,
+        "monitors": [
+        ],
+        "pinnedApps": [
+        ]
+    },
+    "general": {
+        "animationDisabled": true,
+        "animationSpeed": 1,
+        "avatarImage": "/home/duck/dots/rubber-duck.png",
+        "dimDesktop": false,
+        "forceBlackScreenCorners": false,
+        "radiusRatio": 0,
+        "screenRadiusRatio": 1,
+        "showScreenCorners": false
+    },
+    "hooks": {
+        "darkModeChange": "",
+        "enabled": false,
+        "wallpaperChange": ""
+    },
+    "location": {
+        "name": "Baltimore",
+        "showWeekNumberInCalendar": false,
+        "use12hourFormat": false,
+        "useFahrenheit": true
+    },
+    "matugen": {
+        "enableUserTemplates": false,
+        "foot": false,
+        "fuzzel": false,
+        "ghostty": false,
+        "gtk3": false,
+        "gtk4": false,
+        "kitty": false,
+        "pywalfox": false,
+        "qt5": false,
+        "qt6": false,
+        "vesktop": false
+    },
+    "network": {
+        "wifiEnabled": true
+    },
+    "nightLight": {
+        "autoSchedule": true,
+        "dayTemp": "6500",
+        "enabled": false,
+        "forced": false,
+        "manualSunrise": "06:30",
+        "manualSunset": "18:30",
+        "nightTemp": "4000"
+    },
+    "notifications": {
+        "alwaysOnTop": false,
+        "criticalUrgencyDuration": 15,
+        "doNotDisturb": false,
+        "lastSeenTs": 1759189428000,
+        "location": "top_right",
+        "lowUrgencyDuration": 3,
+        "monitors": [
+        ],
+        "normalUrgencyDuration": 8,
+        "respectExpireTimeout": false
+    },
+    "osd": {
+        "autoHideMs": 2000,
+        "enabled": true,
+        "location": "top_right",
+        "monitors": [
+        ]
+    },
+    "screenRecorder": {
+        "audioCodec": "opus",
+        "audioSource": "default_output",
+        "colorRange": "limited",
+        "directory": "/home/duck/Videos",
+        "frameRate": 60,
+        "quality": "very_high",
+        "showCursor": true,
+        "videoCodec": "h264",
+        "videoSource": "portal"
+    },
+    "settingsVersion": 12,
+    "ui": {
+        "fontBillboard": "Inter",
+        "fontDefault": "CaskaydiaCove NF",
+        "fontFixed": "CaskaydiaCove Nerd Font Mono",
+        "idleInhibitorEnabled": false,
+        "monitorsScaling": [
+            {
+                "name": "eDP-1",
+                "scale": 1.0999999999999999
+            }
+        ]
+    },
+    "wallpaper": {
+        "directory": "/home/duck/Pictures/Wallpaper",
+        "enableMultiMonitorDirectories": false,
+        "enabled": true,
+        "fillColor": "#000000",
+        "fillMode": "crop",
+        "monitors": [
+            {
+                "directory": "/home/duck/Pictures/Wallpaper",
+                "name": "eDP-1",
+                "wallpaper": "/home/duck/Pictures/Wallpaper/080 - VWYGHQW.png"
+            }
+        ],
+        "randomEnabled": true,
+        "randomIntervalSec": 3600,
+        "setWallpaperOnAllMonitors": true,
+        "transitionDuration": 1500,
+        "transitionEdgeSmoothness": 0.05,
+        "transitionType": "random"
+    }
+}
