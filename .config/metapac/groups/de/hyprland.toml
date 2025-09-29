@@ -1,10 +1,12 @@
 arch = [
     "hyprland",
     "brightnessctl",
-    "rofi-wayland",
+    "rofi",
     "hypridle",
     "hyprlock",
-    "hyprshot",
+    "hyprshot",             # screenshot
+    "wf-recorder", "slurp", # gif recording
+
 
     "ags-hyprpanel-git"
 ]
