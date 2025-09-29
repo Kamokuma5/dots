@@ -6,7 +6,5 @@ arch = [
     "hyprlock",
     "hyprshot",             # screenshot
     "wf-recorder", "slurp", # gif recording
-
-
-    "ags-hyprpanel-git"
+    "noctalia-shell-git", "matugen-bin", "cava", "cliphist"#, "xdg-desktop-portal"
 ]
