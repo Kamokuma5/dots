@@ -14,7 +14,7 @@ arch = [
     "zen-browser-bin",
     "peazip",
 
-    "ghostty",
+    "foot",
     "neovim",
     "eza",
     "dust",
