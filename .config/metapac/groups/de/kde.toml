@@ -20,7 +20,6 @@ arch = [
     "kdeplasma-addons",
     "kdialog",
     "kinfocenter", "dmidecode",
-    "kinit",
     "kio-admin",
     "kscreen",
     "kwallet-pam",
