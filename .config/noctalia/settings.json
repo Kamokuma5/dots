@@ -18,7 +18,7 @@
         "volumeStep": 5
     },
     "bar": {
-        "backgroundOpacity": 0.4,
+        "backgroundOpacity": 0.2,
         "density": "comfortable",
         "floating": false,
         "marginHorizontal": 0.25,
@@ -100,7 +100,7 @@
         }
     },
     "brightness": {
-        "brightnessStep": 5
+        "brightnessStep": 3
     },
     "colorSchemes": {
         "darkMode": true,
@@ -135,22 +135,22 @@
     },
     "location": {
         "name": "Baltimore",
-        "showWeekNumberInCalendar": false,
+        "showWeekNumberInCalendar": true,
         "use12hourFormat": false,
         "useFahrenheit": true
     },
     "matugen": {
         "enableUserTemplates": false,
-        "foot": false,
+        "foot": true,
         "fuzzel": false,
         "ghostty": false,
-        "gtk3": false,
-        "gtk4": false,
+        "gtk3": true,
+        "gtk4": true,
         "kitty": false,
         "pywalfox": false,
-        "qt5": false,
-        "qt6": false,
-        "vesktop": false
+        "qt5": true,
+        "qt6": true,
+        "vesktop": true
     },
     "network": {
         "wifiEnabled": true
@@ -168,7 +168,7 @@
         "alwaysOnTop": false,
         "criticalUrgencyDuration": 15,
         "doNotDisturb": false,
-        "lastSeenTs": 1759189428000,
+        "lastSeenTs": 1759192806000,
         "location": "top_right",
         "lowUrgencyDuration": 3,
         "monitors": [
@@ -177,7 +177,7 @@
         "respectExpireTimeout": false
     },
     "osd": {
-        "autoHideMs": 2000,
+        "autoHideMs": 1400,
         "enabled": true,
         "location": "top_right",
         "monitors": [
