@@ -29,6 +29,7 @@ arch = [
     "mullvad-vpn",
     "lact",
     "metapac",
+    "gwenview",
 
     # fonts
     "ttf-cascadia-code-nerd",
@@ -45,4 +46,7 @@ arch = [
     "microsoft-edge-stable-bin",
     "open-tv-bin",
     "yuki-iptv-bin",
+
+    # AI
+    "ollama",
 ]
