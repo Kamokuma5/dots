@@ -1,7 +1,0 @@
-arch = [
-    "asusctl",
-    "power-profiles-daemon",
-    "rog-control-center",
-    "supergfxctl",
-    "switcheroo-control"
-]

@@ -1,0 +1,20 @@
+{
+  "performance_mode": 0,
+  "performance_1": 0,
+  "dgpu_pci_bdf": "0000:01:00.0",
+  "dgpu_pci_slot": "0",
+  "dgpu_pci_bridge": "0000:00:01.1",
+  "backlight_type": 4,
+  "fnlock_enabled": 1,
+  "fnlock_on": 1,
+  "screen_auto": 0,
+  "gpu_auto": 0,
+  "gpu_mode": "eco",
+  "silent_start": 1,
+  "extra_tab": 0,
+  "gpu_eco_persistent": 1,
+  "gpu_backend": "ebpf",
+  "slash_enabled": 0,
+  "peripherals_logitech_disabled": 1,
+  "charge_limit": 80
+}
