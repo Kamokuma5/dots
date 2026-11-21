@@ -1,11 +1,21 @@
-# Test Deploy
+# Dot Files
+
+## Test Deploy
+```sh
 sudo uv run deploy.py --dry-run --force
+```
 
-# Deploy
+## Deploy
+```sh
 sudo uv run deploy.py --force
+```
 
-# Install packages in .config
-metapac -n lugia sync
+## Install packages
+```sh
+shelly backup --import --name lugia --directory ~/dots/
+```
 
-# Remove packages no in .config
-metapac -n lugia clean
+## Backup 
+```sh
+shelly backup --export --name lugia --directory ~/dots
+```
