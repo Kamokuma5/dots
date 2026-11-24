@@ -311,3 +311,7 @@ _launch=none
 RecordRegion=Meta+Shift+R
 RecordScreen=none
 RecordWindow=none
+
+[zennotes]
+63252BB1F2F570B8B6A149D1085FB2B2-Ctrl+Shift+Space=Ctrl+Shift+Space,Ctrl+Shift+Space,ZenNotes shortcut: Ctrl+Shift+Space
+_k_friendly_name=ZenNotes
