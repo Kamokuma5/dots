@@ -9,6 +9,7 @@ standard = [
   "base",
   "base-devel",
   "bash-completion",
+  "bat",
   "bind",
   "bluedevil",
   "bluez",
@@ -31,7 +32,6 @@ standard = [
   "cachyos-kde-settings",
   "cachyos-kernel-manager",
   "cachyos-keyring",
-  "cachyos-micro-settings",
   "cachyos-mirrorlist",
   "cachyos-nord-kde-theme-git",
   "cachyos-packageinstaller",
@@ -50,6 +50,7 @@ standard = [
   "cryptsetup",
   "device-mapper",
   "diffutils",
+  "discord",
   "dmidecode",
   "dmraid",
   "dnsmasq",
@@ -129,13 +130,13 @@ standard = [
   "mdadm",
   "meld",
   "mesa-utils",
-  "micro",
   "mkinitcpio",
   "modemmanager",
   "mtools",
   "mullvad-vpn",
   "nano",
   "nano-syntax-highlighting",
+  "neovim",
   "netctl",
   "networkmanager",
   "networkmanager-openvpn",
@@ -174,6 +175,9 @@ standard = [
   "poppler-glib",
   "power-profiles-daemon",
   "powerdevil",
+  "powertop",
+  "prismlauncher",
+  "protonplus",
   "pv",
   "python",
   "python-defusedxml",
@@ -233,7 +237,9 @@ standard = [
 ]
 
 aur = [
+  "artcraft-launcher",
   "microsoft-edge-dev-bin",
+  "zennotes-bin",
 ]
 
 flatpak = [
